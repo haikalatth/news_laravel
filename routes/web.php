@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('test');
+    return view('welcome');
 });
+Route::get('news_data', 'newsController@index');
+Route::get('news_data/publish/{id}','newsController@edit');
+Route::get('news_data/delete/{id}','newsController@destroy');
+
+

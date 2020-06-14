@@ -12,11 +12,14 @@
     <title>ADMIN NEWS</title>
 
     <!-- Custom fonts for this template-->
-    <link href="{{url('vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css')}}">
+    <link href="{{url('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i')}}" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="{{url('css/sb-admin-2.min.css')}}" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="{{url('vendor/datatables/dataTables.bootstrap4.min.css')}}" rel="stylesheet">
 
 </head>
 
@@ -25,7 +28,7 @@
 <!-- Page Wrapper -->
 <div id="wrapper">
     <!-- Sidebar -->
-    @include('admin/sidebar')
+    @include('admin.templates.sidebar')
     <!-- End of Sidebar -->
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -34,7 +37,7 @@
         <div id="content">
 
             <!-- Topbar -->
-            @include('admin/topbar')
+            @include('admin.templates.topbar')
             <!-- End of Topbar -->
 
             <!-- Begin Page Content -->
@@ -49,7 +52,7 @@
         <!-- End of Main Content -->
 
         <!-- Footer -->
-        @include('admin/footer')
+        @include('admin.templates.footer')
         <!-- End of Footer -->
 
     </div>
@@ -74,6 +77,13 @@
 
 <!-- Custom scripts for all pages-->
 <script src="{{url('js/sb-admin-2.min.js')}}"></script>
+
+<!-- Page level plugins -->
+<script src="{{url('vendor/datatables/jquery.dataTables.min.js')}}"></script>
+<script src="{{url('vendor/datatables/dataTables.bootstrap4.min.js')}}"></script>
+
+<!-- Page level custom scripts -->
+<script src="{{url('js/demo/datatables-demo.js')}}"></script>
 
 </body>
 

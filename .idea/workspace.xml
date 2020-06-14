@@ -2,100 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fac24d4c-aca1-4a47-aa56-fb9a9a6ceebf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/news_laravel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/templates/content.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/templates/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/templates/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/templates/topbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/newsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/admindata.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/newsdata.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/templates/visitordata.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/templates/content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/templates/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/templates/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/templates/topbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,13 +132,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1cawY5Ah2hu28xZdpUfguqc2y9Q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -228,6 +149,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\news_laravel\resources\views\admin" />
+      <recent name="C:\xampp\htdocs\news_laravel\resources\views\admin\templates" />
       <recent name="C:\xampp\htdocs\news_laravel\resources\views\templates" />
     </key>
   </component>
@@ -264,13 +187,24 @@
       <workItem from="1591944717997" duration="628000" />
       <workItem from="1592021031653" duration="426000" />
       <workItem from="1592021536187" duration="6520000" />
+      <workItem from="1592052799558" duration="9673000" />
+      <workItem from="1592101873938" duration="9054000" />
     </task>
+    <task id="LOCAL-00001" summary="set template">
+      <created>1592052865270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592052865270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="set template" />
     <option name="LAST_COMMIT_MESSAGE" value="set template" />
@@ -280,20 +214,28 @@
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state x="1558" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592021113086" />
-    <state x="1597" y="0" width="888" height="722" key="CommitChangelistDialog2" timestamp="1592051419124">
+    <state x="1632" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592062621046">
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
-    <state x="1597" y="0" key="CommitChangelistDialog2/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592051419124" />
+    <state x="1632" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592062621046" />
+    <state x="1562" y="19" width="646" height="690" key="#phpunit.xml" timestamp="1592055984820">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state x="1562" y="19" width="646" height="690" key="#phpunit.xml/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592055984820" />
+    <state x="1597" y="0" width="888" height="722" key="CommitChangelistDialog2" timestamp="1592052863692">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state x="1597" y="0" key="CommitChangelistDialog2/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592052863692" />
     <state x="308" y="0" width="888" height="722" key="CommitChangelistDialog2/0.0.1366.722@0.0.1366.722" timestamp="1590780323711" />
-    <state x="1649" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1592052802066">
+    <state x="1649" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1592139797596">
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
-    <state x="378" y="185" key="com.intellij.ide.util.TipDialog/0.0.1366.722/1366.0.1024.728@0.0.1366.722" timestamp="1591944718486" />
-    <state x="1649" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592052802066" />
+    <state x="378" y="185" key="com.intellij.ide.util.TipDialog/0.0.1366.722/1366.0.1024.728@0.0.1366.722" timestamp="1592101873479" />
+    <state x="1649" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592139797596" />
     <state x="378" y="185" key="com.intellij.ide.util.TipDialog/0.0.1366.722@0.0.1366.722" timestamp="1591858990784" />
-    <state x="1541" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592035636616">
+    <state x="1541" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592061129241">
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
-    <state x="1541" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592035636616" />
+    <state x="1541" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592061129241" />
   </component>
 </project>
