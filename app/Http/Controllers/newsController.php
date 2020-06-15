@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use MongoDB\Driver\Session;
 
 class newsController extends Controller
 {
@@ -14,7 +15,11 @@ class newsController extends Controller
      */
     public function index()
     {
-        return view('admin/newsdata');
+        if(session()->get('role') != 'admin'){
+            return redirect('news_data/login');
+        }else{
+            return view('admin/newsdata');
+        }
     }
 
     /**
@@ -58,7 +63,7 @@ class newsController extends Controller
     public function edit($id)
     {
         DB::table('berita')->where('id_berita', $id)->update(['status' => 'published']);
-        return redirect('/news_data');
+        return redirect('news_data');
         //
     }
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use MongoDB\Driver\Session;
 
 class loginController extends Controller
 {
@@ -17,6 +18,8 @@ class loginController extends Controller
         $data = DB::table('user')->where(['username'=>$username])->first();
         if($data->username == $username AND $data->password == $pwd){
             if($data->role == 'admin'){
+                session(['role' => $data->role]);
+                session(['username' => $data->username]);
                 return redirect('news_data');
             }else{
                 return redirect('news_data/login')->with('failed','Anda tidak memiliki akses');
@@ -25,6 +28,11 @@ class loginController extends Controller
             return redirect('news_data/login')->with('failed','Anda tidak memiliki akses');
         }
 
+    }
+
+    public function logout(){
+        session()->flush();
+        return redirect('news_data/login');
     }
     //
 }

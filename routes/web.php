@@ -20,6 +20,7 @@ Route::get('news_data', 'newsController@index');
 Route::get('news_data/publish/{id}','newsController@edit');
 Route::get('news_data/delete/{id}','newsController@destroy');
 Route::get('news_data/login', 'loginController@index');
-Route::post('news_data/loginn', 'loginController@auth');
+Route::post('news_data/login', 'loginController@auth');
+Route::get('news_data/logout', 'loginController@logout');
 
 

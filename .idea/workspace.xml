@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fac24d4c-aca1-4a47-aa56-fb9a9a6ceebf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/loginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/adminlogin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/loginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/loginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/newsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/newsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminlogin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminlogin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/templates/topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/templates/topbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +194,7 @@
       <workItem from="1592139791014" duration="1928000" />
       <workItem from="1592188951927" duration="3358000" />
       <workItem from="1592200754971" duration="700000" />
-      <workItem from="1592213700881" duration="5039000" />
+      <workItem from="1592213700881" duration="6770000" />
     </task>
     <task id="LOCAL-00001" summary="set template">
       <created>1592052865270</created>
@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592139854445</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="login v1">
+      <created>1592228484942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592228484942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +241,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="set template" />
     <MESSAGE value="set publish + delete berita" />
-    <option name="LAST_COMMIT_MESSAGE" value="set publish + delete berita" />
+    <MESSAGE value="login v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="login v1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1558" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592021113086">
@@ -250,15 +258,17 @@
     </state>
     <state x="1562" y="19" width="646" height="690" key="#phpunit.xml/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592055984820" />
     <state x="1627" y="19" width="646" height="690" key="#phpunit.xml/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592214547243" />
-    <state x="1597" y="0" width="888" height="722" key="CommitChangelistDialog2" timestamp="1592139852376">
-      <screen x="1366" y="0" width="1024" height="728" />
+    <state x="1547" y="0" width="888" height="722" key="CommitChangelistDialog2" timestamp="1592228483522">
+      <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1597" y="0" key="CommitChangelistDialog2/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592139852376" />
+    <state x="1547" y="0" key="CommitChangelistDialog2/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592228483522" />
     <state x="308" y="0" width="888" height="722" key="CommitChangelistDialog2/0.0.1366.722@0.0.1366.722" timestamp="1590780323711" />
-    <state x="1470" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592140137044">
-      <screen x="1366" y="0" width="1024" height="728" />
+    <state x="1505" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592228497067">
+      <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1470" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592140137044" />
+    <state x="1505" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592228497067" />
     <state x="1744" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1592213882844">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
