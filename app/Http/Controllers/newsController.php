@@ -83,7 +83,7 @@ class newsController extends Controller
     public function destroy($id)
     {
         DB::table('berita')->where('id_berita',$id)->delete();
-        return redirect('/news_data');
+        return redirect('news_data');
         //
     }
 }
