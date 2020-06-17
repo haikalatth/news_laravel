@@ -1,12 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fac24d4c-aca1-4a47-aa56-fb9a9a6ceebf" name="Default Changelist" comment="">
+    <list default="true" id="fac24d4c-aca1-4a47-aa56-fb9a9a6ceebf" name="Default Changelist" comment="beranda(v1) + login user">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/userloginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/_about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/_about.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/_feature.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/_feature.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/_gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/_gallery.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/_team.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/_team.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/_variables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/_variables.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/breadcrumb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/breadcrumb.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/gmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/jquery.ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/mail-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/stellar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/animate-css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/animate-css/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/bootstrap-datepicker/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/bootstrap-datepicker/bootstrap-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/counter-up/jquery.counterup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/counter-up/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/FAQ.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/cetak.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/changelog.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/__construct.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/acceptpagebreak.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/addfont.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/addlink.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/addpage.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/aliasnbpages.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/cell.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/close.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/error.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/footer.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/getpageheight.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/getpagewidth.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/getstringwidth.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/getx.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/gety.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/header.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/image.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/line.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/link.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/ln.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/multicell.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/output.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/pageno.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/rect.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setauthor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setautopagebreak.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setcompression.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setcreator.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setdisplaymode.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setdrawcolor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setfillcolor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setfont.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setfontsize.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setkeywords.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setleftmargin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setlinewidth.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setlink.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setmargins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setrightmargin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setsubject.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/settextcolor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/settitle.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/settopmargin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setx.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/setxy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/sety.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/text.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/doc/write.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/courier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/courierb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/courierbi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/courieri.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/helvetica.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/helveticab.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/helveticabi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/helveticai.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/symbol.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/times.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/timesb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/timesbi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/timesi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/font/zapfdingbats.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/fpdf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/fpdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/haha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/install.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/konversi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/cp1250.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/cp1251.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/cp1252.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/cp1253.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/cp1254.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/cp1255.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/cp1257.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/cp1258.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/cp874.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/iso-8859-1.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/iso-8859-11.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/iso-8859-15.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/iso-8859-16.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/iso-8859-2.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/iso-8859-4.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/iso-8859-5.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/iso-8859-7.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/iso-8859-9.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/koi8-r.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/koi8-u.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/makefont.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/makefont/ttfparser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/pengaturan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/20k_c1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/20k_c2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/calligra.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/calligra.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/calligra.z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/countries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/makefont.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto3.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto4.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto5.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto6.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto7.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/fpdf182/tutorial/tuto7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/isotope/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/isotope/isotope-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/jquery-ui/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/jquery-ui/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/lightbox/simpleLightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/lightbox/simpleLightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/linericon/fonts/Linearicons-Free.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/linericon/fonts/Linearicons-Free.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/linericon/fonts/Linearicons-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/linericon/fonts/Linearicons-Free.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/linericon/fonts/Linearicons-Free.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/linericon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/nice-select/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/nice-select/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/nice-select/js/jquery.nice-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/nice-select/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/owl-carousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/owl-carousel/assets/animated.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/owl-carousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/owl-carousel/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist-2/vendors/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist/css/adminlte.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist/css/adminlte.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/dist/js/adminlte.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bgrn.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/fav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logooo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/offer/Cepat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/offer/Mudah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/offer/Waktu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/fontawesome-free/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/icheck-bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/news/homenews.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/news/userlogin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/loginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/loginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/newsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/newsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminlogin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminlogin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/templates/topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/templates/topbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +403,10 @@
       <workItem from="1592139791014" duration="1928000" />
       <workItem from="1592188951927" duration="3358000" />
       <workItem from="1592200754971" duration="700000" />
-      <workItem from="1592213700881" duration="6770000" />
+      <workItem from="1592213700881" duration="7719000" />
+      <workItem from="1592376763667" duration="4084000" />
+      <workItem from="1592395080063" duration="5256000" />
+      <workItem from="1592403877859" duration="3667000" />
     </task>
     <task id="LOCAL-00001" summary="set template">
       <created>1592052865270</created>
@@ -217,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592228484942</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="login v2 (session admin + logout)">
+      <created>1592230311897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592230311897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,45 +461,57 @@
     <MESSAGE value="set template" />
     <MESSAGE value="set publish + delete berita" />
     <MESSAGE value="login v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="login v1" />
+    <MESSAGE value="login v2 (session admin + logout)" />
+    <MESSAGE value="beranda + login user" />
+    <MESSAGE value="beranda(v1) + login user" />
+    <option name="LAST_COMMIT_MESSAGE" value="beranda(v1) + login user" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1558" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592021113086">
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state x="1558" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592021113086" />
-    <state x="1632" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592062621046">
-      <screen x="1366" y="0" width="1024" height="728" />
+    <state x="1721" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592403948930">
+      <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1632" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592062621046" />
+    <state x="1721" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592403948930" />
+    <state x="1798" y="123" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592403977109">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1798" y="123" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592403977109" />
     <state x="1627" y="19" width="646" height="690" key="#phpunit.xml" timestamp="1592214547243">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1562" y="19" width="646" height="690" key="#phpunit.xml/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592055984820" />
     <state x="1627" y="19" width="646" height="690" key="#phpunit.xml/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592214547243" />
-    <state x="1547" y="0" width="888" height="722" key="CommitChangelistDialog2" timestamp="1592228483522">
+    <state x="1547" y="0" width="888" height="722" key="CommitChangelistDialog2" timestamp="1592407622366">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1597" y="0" key="CommitChangelistDialog2/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592139852376" />
-    <state x="1547" y="0" key="CommitChangelistDialog2/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592228483522" />
+    <state x="1547" y="0" key="CommitChangelistDialog2/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592407622366" />
     <state x="308" y="0" width="888" height="722" key="CommitChangelistDialog2/0.0.1366.722@0.0.1366.722" timestamp="1590780323711" />
-    <state x="1505" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592228497067">
+    <state x="1505" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592230321344">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1470" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592140137044" />
-    <state x="1505" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592228497067" />
-    <state x="1744" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1592213882844">
+    <state x="1505" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592230321344" />
+    <state x="1744" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1592403885890">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="378" y="185" key="com.intellij.ide.util.TipDialog/0.0.1366.722/1366.0.1024.728@0.0.1366.722" timestamp="1592101873479" />
     <state x="1649" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592200754995" />
-    <state x="1744" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592213882844" />
+    <state x="1744" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592403885890" />
     <state x="378" y="185" key="com.intellij.ide.util.TipDialog/0.0.1366.722@0.0.1366.722" timestamp="1591858990784" />
-    <state x="1599" y="49" width="897" height="678" key="search.everywhere.popup" timestamp="1592227755491">
+    <state x="1769" y="98" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1592230291333">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1769" y="98" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592230291333" />
+    <state x="1599" y="49" width="897" height="678" key="search.everywhere.popup" timestamp="1592404110890">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1541" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.722/1366.0.1024.728@1366.0.1024.728" timestamp="1592061129241" />
-    <state x="1599" y="49" width="897" height="678" key="search.everywhere.popup/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592227755491" />
+    <state x="1599" y="49" width="897" height="678" key="search.everywhere.popup/0.0.1366.722/1366.0.1366.728@1366.0.1366.728" timestamp="1592404110890" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
