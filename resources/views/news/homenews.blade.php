@@ -93,30 +93,19 @@
         </div>
         <div class="row offer_inner">
             <!-- start here -->
-            <?php
-            $servername = "localhost";$username = "root";$password = "";$dbname = "db_news";
-            $conn = new mysqli($servername, $username, $password, $dbname);
-            $sql = "SELECT * from berita";
-            $result = $conn->query($sql);
-            while($row = $result->fetch_assoc()) {
-                echo '
-                    <div class="col-lg-4" style="padding-bottom: 5%">
+            @foreach(App\news::all() as $data)
+                <div class="col-lg-4" style="padding-bottom: 5%">
                     <div class="offer_item">
-                    <a href="#">
-                        <img class="img-fluid" src="assets/images/offer/Mudah.jpg" alt="">
-                        <div class="offer_text">
-                            <h4>'.$row['judul'].'</h4>
-                            <p>'.$row['isi'].'</p>
-                        </div>
-                    </a>
+                        <a href="#">
+                            <img class="img-fluid" src="assets/images/offer/Mudah.jpg" alt="">
+                            <div class="offer_text">
+                                <h4>{{$data->judul}}</h4>
+                                <p>{{$data->isi}}</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                ';
-            }
-            $conn->close();
-            ?>
-
-
+            @endforeach
         </div>
     </div>
 </section>
