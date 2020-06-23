@@ -41,6 +41,7 @@ class userdataController extends Controller
                 'password' => $request->password,
                 'role' => 'admin'
             ]);
+
         }else{
             DB::table('user')->insert([
                 'username' => $request->username,
@@ -49,7 +50,7 @@ class userdataController extends Controller
             ]);
         }
 
-        return redirect('news_data/adduser');
+        return redirect('admin');
         //
     }
 
