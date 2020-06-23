@@ -29,10 +29,7 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
-        <a class="nav-link" href="">
-            <i class="fas fa-fw fa-plus"></i>
-            <span>Add New</span></a>
-        <a class="nav-link" href="">
+        <a class="nav-link" href="news_data">
             <i class="fas fa-fw fa-folder-open"></i>
             <span>News Data</span></a>
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
@@ -42,8 +39,9 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">User Data:</h6>
-                <a class="collapse-item" href="news_data/admin">Admin Data</a>
-                <a class="collapse-item" href="news_data/visitor">Visitor Data</a>
+                <a class="collapse-item" href="admin">Admin Data</a>
+                <a class="collapse-item" href="visitor">Visitor Data</a>
+                <a class="collapse-item" href="adduser">Add New User</a>
             </div>
         </div>
     </li>

@@ -55,7 +55,7 @@
                                 <?php
                                 if(!session()->get('username')){
                                     echo '
-                                        <li class="nav-item"><a class="nav-link" href="#">DAFTAR AKUN</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="newuser">DAFTAR AKUN</a></li>
                                         <li class="nav-item"><a class="nav-link" href="news/login">LOGIN</a></li>
                                         ';
                                 }else{
