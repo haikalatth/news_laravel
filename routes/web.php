@@ -27,5 +27,7 @@ Route::post('news/login', 'userloginController@auth');
 Route::get('news/logout', 'userloginController@logout');
 Route::get('addnews', 'addnewsController@index');
 Route::post('addnews', 'addnewsController@store');
+Route::get('news_data/admin', 'userdataController@admin');
+Route::get('news_data/visitor', 'userdataController@visitor');
 
 

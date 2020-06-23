@@ -10,6 +10,7 @@ class addnewsController extends Controller
     public function index(){
         return view('news/kirimberita');
     }
+
     public function store(Request $request)
     {
         date_default_timezone_set('Asia/Jakarta');
